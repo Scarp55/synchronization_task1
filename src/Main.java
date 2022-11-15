@@ -27,8 +27,7 @@ public class Main {
                         }
                     }
 
-                    sizeToFreq.merge(charCount, 1, (a, b) -> a + 1); //альтернативный вариант записи данных в мапу
-                    //с использованием метода merge()
+                    sizeToFreq.merge(charCount, 1, (a, b) -> a + 1);
                 }
             }).start();
         }
